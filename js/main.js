@@ -21,6 +21,7 @@ function random(min,max) {
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
+// Classes
 
 class Shape {
 
@@ -32,6 +33,7 @@ class Shape {
   }
 
 }
+// Class Extention
 
 class Ball extends Shape {
 
@@ -87,6 +89,7 @@ class Ball extends Shape {
   }
 
 }
+// Class extension
 
 class EvilCircle extends Shape {
 
